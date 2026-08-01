@@ -1,58 +1,293 @@
-# AR_Mouse_Python
+# 🤖 AI Virtual Assistant using Hand Gestures & Voice Commands
 
-### 해당 프로그래밍은 python 3.8.10 버전으로 해야 모든 라이브러리가 옳바르게 설치 된다
+An AI-powered virtual assistant built with **Python, OpenCV, and MediaPipe** that enables users to control their computer using **hand gestures** and **voice commands**.
 
-[1. 핸드 트래킹 영상 주소](https://youtu.be/NZde8Xt78Iw)
+---
 
-[2. 버추얼 마우스 영상 주소](https://www.youtube.com/watch?v=8tng9RsbXoU&ab_channel=Chronics)
+## 📌 Features
 
-<br>
+### 🖱️ Gesture Controls
+- Move Mouse Cursor
+- Left Click
+- Right Click
+- Double Click
+- Drag & Drop
+- Scroll Up
+- Scroll Down
 
-### 필수 설치 라이브러리, 오류 날 수 있으니 순서대로 설치하는 것을 추천
+### 🎤 Voice Commands
+- Open Chrome
+- Open Calculator
+- Open Notepad
+- Open Paint
+- Open File Explorer
+- Search Google
+- Take Screenshot
+- Volume Up
+- Volume Down
+- Mute
+- Tell Current Time
 
-[파이썬 3.8.10](https://www.python.org/downloads/release/python-3810/)
+---
 
-[mediapipe](https://pypi.org/project/mediapipe/)
+## 🛠️ Technologies Used
 
-[autopy - py 3.8 이하의 버전만 가능](https://pypi.org/project/autopy/)
+- Python
+- OpenCV
+- MediaPipe
+- PyAutoGUI
+- SpeechRecognition
+- Pyttsx3
+- NumPy
 
-[pyautogui - py 3 이상 3.11 이하 버전 가능](https://pypi.org/project/PyAutoGUI/)
+---
 
-[내 웹캠 지원 해상도 확인 사이트](https://webrtchacks.github.io/WebRTC-Camera-Resolution/)
+## 📂 Project Structure
 
-<p>autopy 가 python 3.8까지만 지원 하므로 3.8.10을 이용해야 함</p><br>
+```
+AI-Virtual-Assistant/
+│── ai_virtual_assistant.py
+│── HandTrakingModule.py
+│── voice.py
+│── voice_commands.py
+│── requirements.txt
+│── README.md
+```
 
-### 참조(Reference)
+---
 
-[참조한 코드](https://github.com/ravigithub19/ai-virtual-mouse)
+## 🚀 Installation
 
-[잘만든 버추얼 마우스 주소](https://youtu.be/ufm6tfgo-OA)
+Clone the repository:
 
-[autopy 참조](https://www.autopy.org/documentation/api-reference/mouse.html)
+```bash
+git clone https://github.com/YOUR_USERNAME/AI-Virtual-Assistant.git
+```
 
-<br>
+Go to the project folder:
 
-### 릴리즈노트(Release notes)
+```bash
+cd AI-Virtual-Assistant
+```
 
-**23.01.26**
+Install dependencies:
 
-exe 파일을 만들떄 해당 오류가 뜨는 걸 확인되어 확인중, 검색해보니 opencv 버전을 다운그레이드 해야 될 것 같음
+```bash
+pip install -r requirements.txt
+```
 
-ImportError('ERROR: recursion is detected during loading of "cv2" binary extensions. Check OpenCV installation.')
-ImportError: ERROR: recursion is detected during loading of "cv2" binary extensions. Check OpenCV installation.
+Run the project:
 
-[해결책링크1](https://discuss.python.org/t/error-importerror-error-recursion-is-detected-during-loading-of-cv2-binary-extensions-check-opencv-installation-with-pyinstaller/17554/3)
+```bash
+python ai_virtual_assistant.py
+```
 
-<br>
+---
 
-**23.03.02**
+## ✋ Gesture Guide
 
-잘 못된 정보 수정
+| Gesture | Action |
+|---------|--------|
+| ☝️ Index Finger | Move Cursor |
+| ✌️ Index + Middle | Left Click |
+| 🤘 Index + Pinky | Right Click |
+| 👍 + ☝️ | Double Click |
+| 👍 + ☝️ + ✌️ | Drag & Drop |
+| ☝️ + ✌️ + Ring | Scroll Up |
+| ☝️ + ✌️ + Ring + Pinky | Scroll Down |
+| 👍 Thumb Only | Voice Command |
 
-<br>
+---
 
-### 유튜브 영상 링크
+## 🎙️ Supported Voice Commands
 
-[가로영상](https://youtu.be/1gUyEt7ujow)
+- Open Chrome
+- Open Calculator
+- Open Notepad
+- Open Paint
+- Open File Explorer
+- Search Python
+- Screenshot
+- Volume Up
+- Volume Down
+- Mute
+- What is the Time
 
-[shorts](https://youtube.com/shorts/wNx-1LfMxVg)
+---
+
+## 💡 Future Improvements
+
+- AI Chatbot Integration (ChatGPT/Gemini)
+- Face Recognition Login
+- Media Controls
+- Brightness Control
+- Custom Gesture Training
+- Smart Home Integration
+
+---
+
+## 📷 Demo
+
+Add screenshots or a demo video here.
+
+---
+
+## 👨‍💻 Author
+
+**Monesh**
+
+Integrated M.Tech Software Engineering Student
+
+VIT University
+
+---
+
+## ⭐ If you like this project
+
+Please consider giving it a ⭐ on GitHub.# 🤖 AI Virtual Assistant using Hand Gestures & Voice Commands
+
+An AI-powered virtual assistant built with **Python, OpenCV, and MediaPipe** that enables users to control their computer using **hand gestures** and **voice commands**.
+
+---
+
+## 📌 Features
+
+### 🖱️ Gesture Controls
+- Move Mouse Cursor
+- Left Click
+- Right Click
+- Double Click
+- Drag & Drop
+- Scroll Up
+- Scroll Down
+
+### 🎤 Voice Commands
+- Open Chrome
+- Open Calculator
+- Open Notepad
+- Open Paint
+- Open File Explorer
+- Search Google
+- Take Screenshot
+- Volume Up
+- Volume Down
+- Mute
+- Tell Current Time
+
+---
+
+## 🛠️ Technologies Used
+
+- Python
+- OpenCV
+- MediaPipe
+- PyAutoGUI
+- SpeechRecognition
+- Pyttsx3
+- NumPy
+
+---
+
+## 📂 Project Structure
+
+```
+AI-Virtual-Assistant/
+│── ai_virtual_assistant.py
+│── HandTrakingModule.py
+│── voice.py
+│── voice_commands.py
+│── requirements.txt
+│── README.md
+```
+
+---
+
+## 🚀 Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/YOUR_USERNAME/AI-Virtual-Assistant.git
+```
+
+Go to the project folder:
+
+```bash
+cd AI-Virtual-Assistant
+```
+
+Install dependencies:
+
+```bash
+pip install -r requirements.txt
+```
+
+Run the project:
+
+```bash
+python ai_virtual_assistant.py
+```
+
+---
+
+## ✋ Gesture Guide
+
+| Gesture | Action |
+|---------|--------|
+| ☝️ Index Finger | Move Cursor |
+| ✌️ Index + Middle | Left Click |
+| 🤘 Index + Pinky | Right Click |
+| 👍 + ☝️ | Double Click |
+| 👍 + ☝️ + ✌️ | Drag & Drop |
+| ☝️ + ✌️ + Ring | Scroll Up |
+| ☝️ + ✌️ + Ring + Pinky | Scroll Down |
+| 👍 Thumb Only | Voice Command |
+
+---
+
+## 🎙️ Supported Voice Commands
+
+- Open Chrome
+- Open Calculator
+- Open Notepad
+- Open Paint
+- Open File Explorer
+- Search Python
+- Screenshot
+- Volume Up
+- Volume Down
+- Mute
+- What is the Time
+
+---
+
+## 💡 Future Improvements
+
+- AI Chatbot Integration (ChatGPT/Gemini)
+- Face Recognition Login
+- Media Controls
+- Brightness Control
+- Custom Gesture Training
+- Smart Home Integration
+
+---
+
+## 📷 Demo
+
+Add screenshots or a demo video here.
+
+---
+
+## 👨‍💻 Author
+
+**Monesh**
+
+Integrated M.Tech Software Engineering Student
+
+VIT University
+
+---
+
+## ⭐ If you like this project
+
+Please consider giving it a ⭐ on GitHub.
