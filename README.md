@@ -280,7 +280,7 @@ Add screenshots or a demo video here.
 
 ## 👨‍💻 Author
 
-**Monesh**
+**Monesh S**
 
 Integrated M.Tech Software Engineering Student
 
